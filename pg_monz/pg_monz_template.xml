@@ -3150,7 +3150,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App PostgreSQL:psql.server_connections[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}].last(0)}&gt;{$PGCONNECTIONS_THRESHOLD}</expression>
+            <expression>{Template App PostgreSQL:psql.server_usedcon[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}].last(0)}&gt;{$PGCONNECTIONS_THRESHOLD}</expression>
             <name>Many connections are forked.</name>
             <url/>
             <status>0</status>
@@ -3262,7 +3262,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App PostgreSQL</host>
-                        <key>psql.idle_tx_connections[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
+                        <key>psql.server_idleinxactcon[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3274,7 +3274,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App PostgreSQL</host>
-                        <key>psql.idle_connections[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
+                        <key>psql.server_idlecon[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3286,7 +3286,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App PostgreSQL</host>
-                        <key>psql.active_connections[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
+                        <key>psql.server_activecon[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3298,7 +3298,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App PostgreSQL</host>
-                        <key>psql.locks_waiting[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
+                        <key>psql.server_waitingcon[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3310,7 +3310,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App PostgreSQL</host>
-                        <key>psql.server_connections[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
+                        <key>psql.server_usedcon[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE}]</key>
                     </item>
                 </graph_item>
             </graph_items>

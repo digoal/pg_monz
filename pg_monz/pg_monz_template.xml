@@ -2419,7 +2419,7 @@
                     <snmp_oid/>
                     <key>db_table.list.discovery[{$PGHOST},{$PGPORT},{$PGROLE},{$PGDATABASE},{$PGSCRIPTDIR}]</key>
                     <delay>3600</delay>
-                    <status>1</status>
+                    <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>

@@ -11,6 +11,7 @@ Release note
 ============
 
 * 2013/11/05 ver.1.0
+* 2014/09/27 ver.1.1 by digoal.Zhou
 
 System requirements
 ===================

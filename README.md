@@ -12,7 +12,7 @@ Release note
 
 * 2013/11/05 ver.1.0
 * 2014/09/27 ver.1.1 by digoal.Zhou
-* example: http://blog.163.com/digoal@126/blog/static/163877040201482233126269/
+  * example: http://blog.163.com/digoal@126/blog/static/163877040201482233126269/
 
 System requirements
 ===================
@@ -27,7 +27,7 @@ Installation and usage
 
 Please see the following document site:
 
-http://pg-monz.github.io/pg_monz/
+http://pg-monz.github.io/pg_monz/index-en.html
 
 License
 =======
